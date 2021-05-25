@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica';
+    background: url('./bg.gif')repeat-x;
+    display: flex;
+    font-size: 22px;
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    margin: 200px 0 0 0;
+    padding: 2rem;
+    background: #f2f2f2;
+    border-radius: 18px;
+    box-shadow: 0 0 36px rgba(0,0,0,0.5);
+    vertical-align: middle;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+button {
+    padding: 1rem;
+    margin: 20px 0 0 0;
+    font-size: 22px;
+    font-weight: bolder;
+    border: none;
+    background: #00BDFF;
+    color: #fff;
+    display: inline-flex;
+}
+
+#todo-input {
+    padding: 1rem;
+    width: 100%;
+    max-width: 296px;
+}
